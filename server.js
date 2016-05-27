@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser= require('body-parser');
 //TRY MONGO JS
 var mongojs = 		require('mongojs');
-var uri = 			"mongodb://bpraveen:YOURDBPAWORD@ds025180.mlab.com:25180/bpraveen";
+var uri = 			"mongodb://bpraveen:nokian73@ds025180.mlab.com:25180/bpraveen";
 var db		= 		mongojs(uri, ["vcard","users"]);
 const app = express();
 
