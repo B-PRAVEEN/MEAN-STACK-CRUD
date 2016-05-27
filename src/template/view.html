@@ -1,0 +1,71 @@
+<div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            
+                            <ol class="breadcrumb">
+                                <li>
+                                    <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                </li>
+                                <li class="active">
+                                    <i class="fa fa-file"></i> List
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    
+                <!--View VISITING CARD-->
+                
+<md-toolbar class="md-table-toolbar md-default" ng-show="!options.rowSelection || !selected.length">
+  <div class="md-toolbar-tools">
+    <span>Visiting Cards List</span>
+    <span flex></span>
+    <input ng-model="search" type="text" placeholder="search" md-progress="promise">
+    
+  </div>
+</md-toolbar>
+
+
+<!-- exact table from live demo -->
+<md-table-container>
+  <table data-md-table data-md-row-select="options.rowSelection" multiple="{{options.multiSelect}}" data-ng-model="selected" md-progress="promise">
+    <thead md-head >
+      <tr md-row>
+        <th md-column md-order-by="nameToLower"><span>Company Name</span></th>
+        <th md-column md-numeric md-order-by="calories.value"><span>Name</span></th>
+        <th md-column md-numeric>City</th>
+        <th md-column md-numeric>State</th>
+        <th md-column md-numeric>Country</th>
+        <th md-column md-numeric>Phone</th>
+        <th md-column md-numeric>Mobile</th>
+        <th md-column md-numeric>Actions</th>
+      </tr>
+    </thead>
+    <tbody md-body>
+      <tr md-row ngModel="selectedItems" ng-repeat="card in cards | filter: search">
+        <td md-cell>{{card.company}}</td>
+        <td md-cell>{{card.name}}</td>
+        <td md-cell>{{card.city}}</td>
+        <td md-cell>{{card.state}}</td>
+        <td md-cell>{{card.country}}</td>
+        <td md-cell>{{card.phone}}</td>
+        <td md-cell>{{card.mobile}}</td>
+        <td md-cell><md-button class="md-raised md-primary" ng-click="edit(card)" >Edit</md-button> </td>
+        <td md-cell><md-button class="md-raised md-primary" ng-click="delete(card)">Delete</md-button></td>
+        
+      </tr>
+    </tbody>
+  </table>
+</md-table-container>
+
+
+                   
+                <!--END-->
+                
+                
+                
+
+                </div>
+                <!-- /.container-fluid -->

@@ -1,0 +1,55 @@
+<div class="container-fluid">
+    
+
+                    <!-- Page Heading -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            
+                            <ol class="breadcrumb">
+                                <li>
+                                    <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                </li>
+                                <li class="active">
+                                    <i class="fa fa-file"></i> Add User
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                    
+                <!--GENERATE VISITING CARD-->
+                    <form>
+                    <div layout="column" layout-padding ng-cloak>
+                      <br/>
+                      <md-content class="autoScroll">
+                        <md-input-container class="md-icon-float md-block">
+                          <!-- Use floating label instead of placeholder -->
+                          <label>User ID</label>
+                          <md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>
+                          <input ng-model="newuser.id" type="text">
+                        </md-input-container>
+                        <md-input-container md-no-float class="md-block">
+                          <md-icon md-svg-src="img/icons/ic_phone_24px.svg"></md-icon>
+                          <input ng-model="newuser.email" type="text" placeholder="Name">
+                        </md-input-container>
+                        <md-input-container md-no-float class="md-block">
+                          <md-icon md-svg-src="img/icons/ic_phone_24px.svg"></md-icon>
+                          <input ng-model="newuser.password" type="password" placeholder="Password">
+                        </md-input-container>
+                        <md-input-container md-no-float class="md-block">
+                          <md-icon md-svg-src="img/icons/ic_phone_24px.svg"></md-icon>
+                          <input ng-model="newuser.cnfpassword" type="password" placeholder="Confirm Password">
+                        </md-input-container>
+                        
+                          
+                          <input ng-model="newuser.rdate" type="hidden">
+                       
+                      </md-content>
+                      
+                      <md-button class="md-raised md-primary" data-ng-click="addnewuser()" type="submit">Add</md-button>
+                    </div>
+                    </form>
+                <!--END-->
+
+                </div>
+                <!-- /.container-fluid -->
