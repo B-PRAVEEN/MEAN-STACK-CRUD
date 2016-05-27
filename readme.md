@@ -12,14 +12,14 @@ Front End : Angular Material Designe + Bootstrap 4
 
 Screen Shots:
 
-![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/branch/screensnap/1.png)
+![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/master/screensnap/1.png)
 
-![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/branch/screensnap/2.png)
+![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/master/screensnap/2.png)
 
-![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/branch/screensnap/3.png)
+![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/master/screensnap/3.png)
 
-![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/branch/screensnap/4.png)
+![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/master/screensnap/4.png)
 
-![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/branch/screensnap/5.png)
+![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/master/screensnap/5.png)
 
-![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/branch/screensnap/6.png)
+![alt tag](https://raw.githubusercontent.com/B-PRAVEEN/MEAN-STACK-CRUD/master/screensnap/6.png)
